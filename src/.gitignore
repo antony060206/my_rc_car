@@ -1,0 +1,67 @@
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+
+# CMake intermediate files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Python cache / temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+
+# Colcon test & coverage outputs
+testing/
+coverage/
+lcov/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.workspace
+*.project
+*.clangd/
+compile_commands.json
+
+# System / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ROS2 launch & parameter backups
+*.launch.py~
+*.yaml~
+
+# Logs, bags, and simulation data
+*.log
+*.db3
+*.sqlite3
+*.bag
+*.bag.active
+*.bag.metadata
+rosbag2_*
+
+# Miscellaneous generated files
+*.so
+*.a
+*.o
+*.out
+
+# If you use Docker or venv for ROS2 development
+.venv/
+env/
+venv/
+*.env
+docker-compose.override.yml

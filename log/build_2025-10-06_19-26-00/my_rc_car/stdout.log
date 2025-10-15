@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/my_rc_car/my_rc_car.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_rc_car/my_rc_car.egg-info/dependency_links.txt
+writing entry points to ../../build/my_rc_car/my_rc_car.egg-info/entry_points.txt
+writing requirements to ../../build/my_rc_car/my_rc_car.egg-info/requires.txt
+writing top-level names to ../../build/my_rc_car/my_rc_car.egg-info/top_level.txt
+reading manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_rc_car/drive_control_canbus.py -> /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car
+copying my_rc_car/rc_controller.py -> /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car
+running install
+running install_lib
+copying /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car/drive_control_canbus.py -> /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car
+copying /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car/rc_controller.py -> /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car
+byte-compiling /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car/drive_control_canbus.py to drive_control_canbus.cpython-310.pyc
+byte-compiling /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car/rc_controller.py to rc_controller.cpython-310.pyc
+running install_data
+copying package.xml -> /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car
+creating /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car/launch
+copying launch/rccar_launch.py -> /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car/launch

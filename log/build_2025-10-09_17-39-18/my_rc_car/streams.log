@@ -1,0 +1,23 @@
+[2.108s] Invoking command in '/home/antonyf/ros2_ws/src/my_rc_car': PYTHONPATH=/home/antonyf/ros2_ws/build/my_rc_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rc_car build --build-base /home/antonyf/ros2_ws/build/my_rc_car/build install --record /home/antonyf/ros2_ws/build/my_rc_car/install.log --single-version-externally-managed install_data
+[2.763s] running egg_info
+[2.765s] writing ../../build/my_rc_car/my_rc_car.egg-info/PKG-INFO
+[2.765s] writing dependency_links to ../../build/my_rc_car/my_rc_car.egg-info/dependency_links.txt
+[2.766s] writing entry points to ../../build/my_rc_car/my_rc_car.egg-info/entry_points.txt
+[2.767s] writing requirements to ../../build/my_rc_car/my_rc_car.egg-info/requires.txt
+[2.767s] writing top-level names to ../../build/my_rc_car/my_rc_car.egg-info/top_level.txt
+[2.773s] reading manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'
+[2.776s] writing manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'
+[2.777s] running build
+[2.778s] running build_py
+[2.779s] running install
+[2.779s] running install_lib
+[2.783s] running install_data
+[2.783s] copying launch/rccar_launch.py -> /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car/launch
+[2.784s] running install_egg_info
+[2.790s] removing '/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car-0.0.1-py3.10.egg-info' (and everything under it)
+[2.793s] Copying ../../build/my_rc_car/my_rc_car.egg-info to /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car-0.0.1-py3.10.egg-info
+[2.798s] running install_scripts
+[2.853s] Installing drive_control_canbus script to /home/antonyf/ros2_ws/install/my_rc_car/lib/my_rc_car
+[2.854s] Installing rc_controller script to /home/antonyf/ros2_ws/install/my_rc_car/lib/my_rc_car
+[2.855s] writing list of installed files to '/home/antonyf/ros2_ws/build/my_rc_car/install.log'
+[2.921s] Invoked command in '/home/antonyf/ros2_ws/src/my_rc_car' returned '0': PYTHONPATH=/home/antonyf/ros2_ws/build/my_rc_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rc_car build --build-base /home/antonyf/ros2_ws/build/my_rc_car/build install --record /home/antonyf/ros2_ws/build/my_rc_car/install.log --single-version-externally-managed install_data

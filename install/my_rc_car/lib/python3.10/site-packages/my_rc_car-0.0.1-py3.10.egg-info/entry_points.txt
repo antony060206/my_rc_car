@@ -1,0 +1,4 @@
+[console_scripts]
+drive_control_canbus = my_rc_car.drive_control_canbus:main
+rc_controller = my_rc_car.rc_controller:main
+

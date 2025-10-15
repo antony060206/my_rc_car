@@ -1,0 +1,25 @@
+[2.700s] Invoking command in '/home/antonyf/ros2_ws/src/my_rc_car': PYTHONPATH=/home/antonyf/ros2_ws/build/my_rc_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rc_car build --build-base /home/antonyf/ros2_ws/build/my_rc_car/build install --record /home/antonyf/ros2_ws/build/my_rc_car/install.log --single-version-externally-managed install_data
+[3.292s] running egg_info
+[3.293s] writing ../../build/my_rc_car/my_rc_car.egg-info/PKG-INFO
+[3.295s] writing dependency_links to ../../build/my_rc_car/my_rc_car.egg-info/dependency_links.txt
+[3.297s] writing entry points to ../../build/my_rc_car/my_rc_car.egg-info/entry_points.txt
+[3.298s] writing requirements to ../../build/my_rc_car/my_rc_car.egg-info/requires.txt
+[3.299s] writing top-level names to ../../build/my_rc_car/my_rc_car.egg-info/top_level.txt
+[3.303s] reading manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'
+[3.306s] writing manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'
+[3.306s] running build
+[3.306s] running build_py
+[3.308s] copying my_rc_car/drive_control_canbus.py -> /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car
+[3.309s] copying my_rc_car/rc_controller.py -> /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car
+[3.310s] running install
+[3.311s] running install_lib
+[3.313s] copying /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car/drive_control_canbus.py -> /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car
+[3.313s] copying /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car/rc_controller.py -> /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car
+[3.315s] byte-compiling /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car/drive_control_canbus.py to drive_control_canbus.cpython-310.pyc
+[3.319s] byte-compiling /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car/rc_controller.py to rc_controller.cpython-310.pyc
+[3.321s] running install_data
+[3.321s] copying package.xml -> /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car
+[3.322s] creating /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car/launch
+[3.323s] copying launch/rccar_launch.py -> /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car/launch
+[3.324s] error: can't copy 'launch/__pycache__': doesn't exist or not a regular file
+[3.369s] Invoked command in '/home/antonyf/ros2_ws/src/my_rc_car' returned '1': PYTHONPATH=/home/antonyf/ros2_ws/build/my_rc_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rc_car build --build-base /home/antonyf/ros2_ws/build/my_rc_car/build install --record /home/antonyf/ros2_ws/build/my_rc_car/install.log --single-version-externally-managed install_data

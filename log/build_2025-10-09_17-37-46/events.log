@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.002097] (my_rc_car) JobQueued: {'identifier': 'my_rc_car', 'dependencies': OrderedDict()}
+[0.002225] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.002330] (my_rc_car) JobStarted: {'identifier': 'my_rc_car'}
+[0.023965] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.099108] (-) TimerEvent: {}
+[0.199880] (-) TimerEvent: {}
+[0.300589] (-) TimerEvent: {}
+[0.401282] (-) TimerEvent: {}
+[0.501889] (-) TimerEvent: {}
+[0.602773] (-) TimerEvent: {}
+[0.703520] (-) TimerEvent: {}
+[0.804163] (-) TimerEvent: {}
+[0.904745] (-) TimerEvent: {}
+[1.005228] (-) TimerEvent: {}
+[1.105860] (-) TimerEvent: {}
+[1.206473] (-) TimerEvent: {}
+[1.307074] (-) TimerEvent: {}
+[1.407682] (-) TimerEvent: {}
+[1.508271] (-) TimerEvent: {}
+[1.608799] (-) TimerEvent: {}
+[1.709392] (-) TimerEvent: {}
+[1.810049] (-) TimerEvent: {}
+[1.911043] (-) TimerEvent: {}
+[2.011734] (-) TimerEvent: {}
+[2.112228] (-) TimerEvent: {}
+[2.212783] (-) TimerEvent: {}
+[2.313400] (-) TimerEvent: {}
+[2.414003] (-) TimerEvent: {}
+[2.514588] (-) TimerEvent: {}
+[2.615293] (-) TimerEvent: {}
+[2.715908] (-) TimerEvent: {}
+[2.816530] (-) TimerEvent: {}
+[2.862882] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/antonyf/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/antonyf/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/antonyf/ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'antonyf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/antonyf', 'OLDPWD': '/home/antonyf', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antonyf/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'antonyf', 'NAME': 'AntOnlylaptop', 'WSL_INTEROP': '/run/WSL/1539_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/antonyf/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/vmware/bin/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-17.0.2/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/antho/.cargo/bin:/mnt/c/Users/antho/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/Users/antho/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/antho/.dotnet/tools:/snap/bin', 'WT_SESSION': 'f004dd1c-aed1-417e-990e-ba62c82d3f83', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/antonyf/ros2_ws/install/my_robot_controller:/home/antonyf/ros2_ws/install/my_rc_car:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/antonyf/ros2_ws/build/my_robot_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/antonyf/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonyf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/antonyf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.879766] (my_rc_car) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_rc_car', 'build', '--build-base', '/home/antonyf/ros2_ws/build/my_rc_car/build', 'install', '--record', '/home/antonyf/ros2_ws/build/my_rc_car/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/antonyf/ros2_ws/src/my_rc_car', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'antonyf', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/antonyf', 'OLDPWD': '/home/antonyf', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/antonyf/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'antonyf', 'NAME': 'AntOnlylaptop', 'WSL_INTEROP': '/run/WSL/1539_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/antonyf/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Python312/Scripts/:/mnt/c/Program Files/Python312/:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/vmware/bin/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk-17.0.2/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/antho/.cargo/bin:/mnt/c/Users/antho/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/Users/antho/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/antho/.dotnet/tools:/snap/bin', 'WT_SESSION': 'f004dd1c-aed1-417e-990e-ba62c82d3f83', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/antonyf/ros2_ws/install/my_robot_controller:/home/antonyf/ros2_ws/install/my_rc_car:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/antonyf/ros2_ws/build/my_rc_car', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/antonyf/ros2_ws/build/my_rc_car/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages:/home/antonyf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.916696] (-) TimerEvent: {}
+[3.017370] (-) TimerEvent: {}
+[3.117968] (-) TimerEvent: {}
+[3.218541] (-) TimerEvent: {}
+[3.319211] (-) TimerEvent: {}
+[3.419830] (-) TimerEvent: {}
+[3.476300] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[3.478066] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[3.478902] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[3.479773] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[3.480356] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[3.480931] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[3.482347] (my_rc_car) StdoutLine: {'line': b'running egg_info\n'}
+[3.484911] (my_rc_car) StdoutLine: {'line': b'writing ../../build/my_rc_car/my_rc_car.egg-info/PKG-INFO\n'}
+[3.485824] (my_rc_car) StdoutLine: {'line': b'writing dependency_links to ../../build/my_rc_car/my_rc_car.egg-info/dependency_links.txt\n'}
+[3.486462] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[3.487005] (my_rc_car) StdoutLine: {'line': b'writing entry points to ../../build/my_rc_car/my_rc_car.egg-info/entry_points.txt\n'}
+[3.487345] (my_rc_car) StdoutLine: {'line': b'writing requirements to ../../build/my_rc_car/my_rc_car.egg-info/requires.txt\n'}
+[3.487715] (my_rc_car) StdoutLine: {'line': b'writing top-level names to ../../build/my_rc_car/my_rc_car.egg-info/top_level.txt\n'}
+[3.488943] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[3.489410] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[3.489611] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[3.490836] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[3.491725] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[3.492215] (my_rc_car) StdoutLine: {'line': b"reading manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'\n"}
+[3.494248] (my_rc_car) StdoutLine: {'line': b"writing manifest file '../../build/my_rc_car/my_rc_car.egg-info/SOURCES.txt'\n"}
+[3.494930] (my_rc_car) StdoutLine: {'line': b'running build\n'}
+[3.495117] (my_rc_car) StdoutLine: {'line': b'running build_py\n'}
+[3.495450] (my_rc_car) StdoutLine: {'line': b'copying my_rc_car/drive_control_canbus.py -> /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car\n'}
+[3.496059] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[3.496296] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.496788] (my_rc_car) StdoutLine: {'line': b'copying my_rc_car/rc_controller.py -> /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car\n'}
+[3.498954] (my_rc_car) StdoutLine: {'line': b'running install\n'}
+[3.499958] (my_rc_car) StdoutLine: {'line': b'running install_lib\n'}
+[3.501566] (my_robot_controller) StdoutLine: {'line': b"removing '/home/antonyf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.502292] (my_rc_car) StdoutLine: {'line': b'copying /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car/drive_control_canbus.py -> /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car\n'}
+[3.503965] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/antonyf/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[3.504732] (my_rc_car) StdoutLine: {'line': b'copying /home/antonyf/ros2_ws/build/my_rc_car/build/lib/my_rc_car/rc_controller.py -> /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car\n'}
+[3.507050] (my_rc_car) StdoutLine: {'line': b'byte-compiling /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car/drive_control_canbus.py to drive_control_canbus.cpython-310.pyc\n'}
+[3.508362] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[3.512883] (my_rc_car) StdoutLine: {'line': b'byte-compiling /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car/rc_controller.py to rc_controller.cpython-310.pyc\n'}
+[3.514809] (my_rc_car) StdoutLine: {'line': b'running install_data\n'}
+[3.515532] (my_rc_car) StdoutLine: {'line': b'copying launch/rccar_launch.py -> /home/antonyf/ros2_ws/install/my_rc_car/share/my_rc_car/launch\n'}
+[3.516626] (my_rc_car) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.520002] (-) TimerEvent: {}
+[3.521903] (my_rc_car) StdoutLine: {'line': b"removing '/home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.524146] (my_rc_car) StdoutLine: {'line': b'Copying ../../build/my_rc_car/my_rc_car.egg-info to /home/antonyf/ros2_ws/install/my_rc_car/lib/python3.10/site-packages/my_rc_car-0.0.1-py3.10.egg-info\n'}
+[3.531403] (my_rc_car) StdoutLine: {'line': b'running install_scripts\n'}
+[3.569734] (my_robot_controller) StdoutLine: {'line': b'Installing draw_cicle script to /home/antonyf/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[3.570680] (my_robot_controller) StdoutLine: {'line': b'Installing pose_subscriber script to /home/antonyf/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[3.571124] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/antonyf/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[3.571667] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_controller script to /home/antonyf/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[3.572842] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/antonyf/ros2_ws/build/my_robot_controller/install.log'\n"}
+[3.586217] (my_rc_car) StdoutLine: {'line': b'Installing drive_control_canbus script to /home/antonyf/ros2_ws/install/my_rc_car/lib/my_rc_car\n'}
+[3.588243] (my_rc_car) StdoutLine: {'line': b'Installing rc_controller script to /home/antonyf/ros2_ws/install/my_rc_car/lib/my_rc_car\n'}
+[3.589181] (my_rc_car) StdoutLine: {'line': b"writing list of installed files to '/home/antonyf/ros2_ws/build/my_rc_car/install.log'\n"}
+[3.620252] (-) TimerEvent: {}
+[3.628908] (my_robot_controller) CommandEnded: {'returncode': 0}
+[3.667987] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[3.674029] (my_rc_car) CommandEnded: {'returncode': 0}
+[3.693701] (my_rc_car) JobEnded: {'identifier': 'my_rc_car', 'rc': 0}
+[3.696360] (-) EventReactorShutdown: {}
